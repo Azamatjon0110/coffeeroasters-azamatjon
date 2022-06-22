@@ -142,13 +142,11 @@ body{
   content: "";
   position: absolute;
   top: -72px;
-  left: -68px;
+  left: -62px;
   width: 160px;
   height: 160px;
   background-image: url("../images/alfred.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: center ;
 }
 
 .collection{
