@@ -152,6 +152,7 @@ body{
 
 .collection{
   width: 100%;
+  overflow: hidden;
   background-color: var(--bg-color);
 }
 
