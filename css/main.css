@@ -582,8 +582,7 @@ body{
 }
 
 .uncompromising-quality{
-  width: 100%;
-  margin:0 20px;
+  margin:20px;
   margin-top: 160px;
   background-image: url("../images/third-bgimg.png");
 }
@@ -635,7 +634,6 @@ body{
 }
 
 .our-headquarters{
-  width: 100%;
   margin: 20px;
   background-image: url("../images/fourth-bg-img.png");
 }
