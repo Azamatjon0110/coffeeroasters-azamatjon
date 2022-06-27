@@ -532,3 +532,209 @@ body{
 .social-media-icon{
   display: block;
 }
+
+.about{
+  width: 372px;
+}
+
+
+.over-component{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 110px;
+  padding-bottom: 150px;
+}
+
+.over-component::before{
+  position: absolute;
+  top: 0%;
+  left: -18%;
+  width: 402px;
+  height: 300px;
+  background-image: url("../images/first-leaf.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.component-info{
+  margin-left: 185px;
+  width: 626px;
+}
+
+.component-title{
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.component-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text-color);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.uncompromising-quality{
+  width: 100%;
+  margin:0 20px;
+  margin-top: 160px;
+  background-image: url("../images/third-bgimg.png");
+}
+
+.quality{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.quality-info{
+  width: 729px;
+  color: var(--bg-color);
+  padding-top: 100px;
+  padding-bottom: 118px;
+  padding-left: 90px;
+}
+
+.quality-title-box{
+  width: 397px;
+}
+
+.quality-title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: var(--bg-color);
+}
+
+.quality-text{
+  margin: 0;
+  margin-top: 24px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  line-height: 2;
+  color: var(--bg-color);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+.quality-img{
+  position: absolute;
+  top:-14%;
+  right: 1%;
+}
+
+.our-headquarters{
+  width: 100%;
+  margin: 20px;
+  background-image: url("../images/fourth-bg-img.png");
+}
+
+.quarters-info{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.quarters-title{
+  width: 431px;
+  margin: 0 auto;
+}
+
+
+.headquarters-list{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-top: 80px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.headquarters-item{
+  position: relative;
+  width: 433px;
+  margin: 0;
+  padding: 0 55px 40px 20px;
+  background-color: #F8F8F2;
+  color: var(--text-second-color)
+}
+
+.headquarters-item:first-child{
+  padding-top: 140px;
+}
+
+.headquarters-item:not(:first-child){
+  padding-top: 187px;
+}
+
+.headquarters-item:not(:last-child){
+  margin-right: 20px;
+}
+
+.quarters-item-title{
+  width: 231px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.quarters-item-text{
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.headquarters-item:nth-child(1)::before{
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  width: 120px;
+  height: 143px;
+  background-image: url("../images/uk-img.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.headquarters-item:nth-child(2)::before{
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-image: url("../images/canada.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.headquarters-item:nth-child(3)::before{
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  display: inline-block;
+  width: 120px;
+  height: 107px;
+  background-image: url("../images/australia.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
